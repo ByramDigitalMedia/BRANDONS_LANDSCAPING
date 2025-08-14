@@ -2114,7 +2114,6 @@ ul.dropdown-menu li {
 }
 
 .bg-2 {
-  /* background: url("../images/featue-bg.jpg"); */
   background: url("../images/slider-bg.png");
   background-size: cover;
   background-attachment: fixed;
@@ -2316,6 +2315,15 @@ ul.dropdown-menu li {
 @media (max-width: 480px) {
   .coming-soon {
     padding: 50px 0;
+  }
+  .bg-2 {
+    /* background: url("../images/slider-bg.png");
+    background-size: cover;
+    background-attachment: fixed; */
+    color: #000;
+  }
+  .bg-2 p {
+    color: #000;
   }
 }
 .coming-soon .block h1 {
@@ -2614,6 +2622,12 @@ ul.dropdown-menu li {
   .page-404 h1 {
     font-size: 150px;
     line-height: 200px;
+  }
+  .bg-2 {
+    color: #000;
+  }
+  .bg-2 p {
+    color: #000;
   }
 }
 .page-404 h2 {
